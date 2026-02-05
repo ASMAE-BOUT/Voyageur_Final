@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Blog Marocain - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-area"><h1>Ma Galerie</h1></div>
+        <nav>
+            <ul class="nav-container">
+                <li><a href="index.html" class="onglet-red">Accueil</a></li>
+                <li><a href="about.html" class="onglet-green">À Propos</a></li>
+                <li><a href="blog.html" class="onglet-orange">Blog</a></li>
+                <li class="has-sm">
+                    <a href="gallery.html" class="onglet-blue">Galerie</a>
+                    <ul class="submenu">
+                        <li><a href="villes/marrakech.html">Marrakesh</a></li>
+                        <li><a href="villes/chefchaouen.html">Chefchaouen</a></li>
+                    </ul>
+                <li><a href="contact.aspx" class="onglet-purple">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="notebook">
+        <section class="slider">
+            <div class="slide active"><img src=".\images\chefchaouen.jpg"></div>
+            <div class="slide"><img src=".\images\marrakesh.jpeg"></div>
+            <div class="slide"><img src=".\images\merzouga.jpg"></div>
+        </section>
+
+        <h2>Les Perles du Royaume</h2><br>
+        <div class="grid">
+            <div class="card"><img src=".\images\marrakesh.jpeg"><h3>Marrakech</h3><p>La cité ocre, célèbre pour son palais Bahia et l'effervescence de Jemaa El-Fna.</p><a href="villes/marrakech.html" class="btn-read">Lire la suite</a></div>
+            <div class="card"><img src=".\images\casablanca.jpg"><h3>Casablanca</h3><p>La ville blanche, cœur économique abritant la grandiose Mosquée Hassan II.</p><a href="villes/casablanca.html" class="btn-read">Lire la suite</a></div>
+            <div class="card"><img src=".\images\fes.jpg"><h3>Fès</h3><p>Capitale spirituelle avec la plus ancienne université au monde, Al Quaraouiyine.</p><a href="villes/fes.html" class="btn-read">Lire la suite</a></div>
+            <div class="card"><img src=".\images\essaouira.jpg"><h3>Essaouira</h3><p>L'ancienne Mogador, célèbre pour ses remparts, son port de pêche et ses alizés.</p><a href="villes/essaouira.html" class="btn-read">Lire la suite</a></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Voyageur Marocain — Un voyage au cœur de l'Atlas</p>
+        <div class="social-links">
+            <a href="#" class="social-icon" title="Facebook">FB</a>
+            <a href="#" class="social-icon" title="Twitter">TW</a>
+            <a href="#" class="social-icon" title="LinkedIn">IN</a>
+            <a href="#" class="social-icon" title="Instagram">IG</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
